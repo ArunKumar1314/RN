@@ -10,11 +10,11 @@ interface InputDataTypes{
 const Inputs:React.FC <InputDataTypes>=({label,value,onChangeText})=>{
     return(
         <TextInput
-            mode={"outlined"}
+            mode="outlined"
             label={label}
             value={value}
             onChangeText={onChangeText}
-             style={Styles.inputContainer}
+            style={Styles.inputContainer}
         />
     )
 }
@@ -23,7 +23,7 @@ const Styles=StyleSheet.create({
         width:'90%',
         height:50,
         marginTop:15,
-        marginHorizontal:30,
+        marginHorizontal:10,
     }
 })
 export default Inputs;

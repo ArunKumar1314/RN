@@ -41,7 +41,7 @@ const Home=({navigation}:HomeProps)=>{
                 
                     onPress={()=>
                         // {console.log("testing onPress");
-                        navigation.navigate('QRCodeGen')}
+                        navigation.navigate('DumpingScreen')}
                    
             />
             </View>
