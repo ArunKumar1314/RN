@@ -14,7 +14,7 @@ export type RootStackParamList = {
   Home: undefined;
   DumpingScreen:undefined;
   LoadingAtSiding:undefined;
-  //Spinner:undefined;
+  Spinner:undefined;
   QRCodeGen: {data:string};
   QRCodeScannerComponent:undefined;
 };
@@ -27,8 +27,8 @@ const App = () => {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="DumpingScreen" component={DumpingScreen} />
+        <Stack.Screen name="Spinner" component={Spinner}/>
         <Stack.Screen name="LoadingAtSiding" component={LoadingAtSiding} />
-        {/* <Stack.Screen name="Spinner" component={Spinner} /> */}
         <Stack.Screen name="QRCodeGen" component={QRCodeGenerator} />
         <Stack.Screen name="QRCodeScannerComponent" component={QRCodeScannerComponent} />
       </Stack.Navigator>

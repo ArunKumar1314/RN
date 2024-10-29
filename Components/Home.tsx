@@ -37,11 +37,22 @@ const Home=({navigation}:HomeProps)=>{
             </View>
             <View style={Styles.But}>
             <Button
-                     title="Sign UP"
+                     title="QRCode Generation"
                 
                     onPress={()=>
                         // {console.log("testing onPress");
                         navigation.navigate('DumpingScreen')}
+                   
+            />
+            
+            </View>
+            <View style={Styles.But}>
+            <Button
+                     title="Spinner"
+                
+                    onPress={()=>
+                        // {console.log("testing onPress");
+                        navigation.navigate('Spinner')}
                    
             />
             </View>
@@ -63,7 +74,8 @@ logoImage:{
 But:{
     marginTop:20,
     width:200,
-    marginHorizontal:100
+    marginHorizontal:100,
+    marginBottom:10,
 },
 userData:{
     width:'100%',
