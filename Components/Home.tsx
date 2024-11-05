@@ -56,6 +56,16 @@ const Home=({navigation}:HomeProps)=>{
                    
             />
             </View>
+            <View style={Styles.But}>
+            <Button
+                     title="Spinner"
+                
+                    onPress={()=>
+                        // {console.log("testing onPress");
+                        navigation.navigate('Spinner')}
+                   
+            />
+            </View>
         </KeyboardAvoidingView>
     )
 }

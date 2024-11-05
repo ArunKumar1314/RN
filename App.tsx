@@ -5,7 +5,7 @@ import Home from './Components/Home';
 import DumpingScreen from "./Components/DumpingScreen";
 import Spinner from "./GenericComponents/Spinner";
 import QRCodeGenerator from './GenericComponents/QRCodeGenerator';
-import QRCodeScannerComponent from './Components/QRCodeScannerComponent';
+import QRCodeScannerComponent from './GenericComponents/QRCodeScannerComponent';
 import LoadingAtSiding from "./Components/LoadingAtSiding";
 //import { StackScreenProps } from '@react-navigation/stack';
 
